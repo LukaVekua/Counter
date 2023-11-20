@@ -1,0 +1,49 @@
+.container{
+    width:600px;
+    margin:auto;
+    margin-top:120px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:2px solid grey;
+    column-gap: 20px;
+    display:block;
+    text-align: left;
+}
+
+.counter{
+    font-size:44px;
+    margin-top:25px;
+}
+
+.picture img{
+    width:600px;
+}
+
+.selector{
+    font-size:22px;
+}
+
+.btns{
+    display:flex;
+    gap:15px;
+    margin-top:20px;
+}
+.btns button{
+    width:190px;
+    height:40px;
+    color:white;
+}
+
+.playerFirst {
+    background:lightgreen;
+}
+
+.playerSecond{
+    background:lightskyblue
+}
+
+.reset{
+    background:darkred;
+}
